@@ -1,0 +1,65 @@
+/*--Autor: Nathalia Hernández Santos--*/
+
+div#arriba{
+    color: #804000;
+    margin: 0 auto;
+    text-align: center;
+    font-weight: 700;
+    font: italic bold 190% Georgia, Serif;
+    text-shadow: -4px 3px 0 #c76a0c, -18px 7px 0 #0a0e27;
+}
+div#contenedor{
+    width: 100%; 
+} 
+
+/* Mobile */
+@media only screen and (max-width: 767px){
+    div.content-img{
+        width: 90%;
+        margin: 0 auto 0 auto;
+    }  
+    .img-cont{
+        width: 79%;
+        display: block;
+        margin: 0 auto 0 auto;
+        margin-bottom: 1.3em;
+    }
+}
+
+/* Tablet, Ipad */
+@media only screen  and (min-width: 768px) and (max-width: 1023px){
+    div.content-img{
+        width: 32%;
+        float: left;
+        margin-left: 1%;
+        margin-bottom: 1.9em;
+    }  
+
+    .img-cont{
+        width: 95%;
+        display: block;
+        margin: 0 auto 0 auto;
+    }
+}
+
+/* Pc portatil y de escritorio */
+@media only screen and (min-width: 1024px){
+    div.content-img{
+        width: 23%;
+        float: left;
+        margin-left: 1.6%;
+        margin-bottom: 1.3em;
+    }  
+
+    .img-cont{
+        width: 95%;
+        display: block;
+        margin: 0 auto 0 auto;
+    }
+}
+p{
+    color: black;
+    text-align: center;
+    font-size: 140%;
+    text-shadow: -1px 0px 0 maroon;
+}
